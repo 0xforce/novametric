@@ -50,7 +50,7 @@ export default function Cta({ locale, CTALocale }) {
 					<div className='flex flex-col items-center text-center gap-3 p-6 rounded-lg bg-base-200/50 backdrop-blur-sm'>
 						<FiMail className='text-2xl text-primary' />
 						<h4 className='font-semibold text-lg'>{locale.email}</h4>
-						<p className='text-base-content/70'>contact@novametric.com</p>
+						<p className='text-base-content/70'>novametricmiami@gmail.com</p>
 					</div>
 					
 					<div className='flex flex-col items-center text-center gap-3 p-6 rounded-lg bg-base-200/50 backdrop-blur-sm'>
