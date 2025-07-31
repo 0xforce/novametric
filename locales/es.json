@@ -1,55 +1,43 @@
 {
 	"Hero": {
-		"h1": "Crea Páginas de Destino Más Rápido",
-		"h2": "Esta es una plantilla de página de destino gratuita, de código abierto y poderosa para proyectos de SaaS, te ayudará a hacer que tu startup sea más rápida."
+		"h1": "Consigue Nuevos Pacientes para tu Consultorio — Rápido",
+		"h2": "Novametric conecta a profesionales de la salud con pacientes preseleccionados que están buscando atención. Tú te enfocas en sanar, nosotros en llevarte los pacientes."
 	},
 	"Feature": {
-		"h2": "Nuestras Características",
-		"h3": "Características de la Plantilla de Página de Destino inWind",
-		"description1": "Increíble plantilla de página de destino.",
-		"description2": "Basada en Next.JS, DaisyUI, TailwindCSS y otras bibliotecas poderosas.",
-		"description3": "Completamente de código abierto y completamente gratuita."
+		"h2": "Nuestros Servicios",
+		"h3": "Por Qué las Mejores Clínicas Eligen a Novametric",
+		"description1": "Leads de pacientes de alta calidad, compatibles con HIPAA y personalizados para tu especialidad.",
+		"description2": "Nos integramos sin problemas con tus sistemas de gestión y calendarios médicos.",
+		"description3": "Diseñado para doctores ocupados que quieren hacer crecer su práctica sin perseguir prospectos."
 	},
 	"Pricing": {
-		"h2": "Nuestros Precios",
-		"h3": "Elige Tu Plan",
-		"description": "Selecciona el plan que mejor se adapte a tus necesidades.",
-		"doYouLike": "¿Te gusta esta plantilla de página de destino?",
-		"follow": "Sigue mi Twitter."
+		"h2": "Precios Personalizados",
+		"h3": "Creamos el Plan Ideal para tu Consultorio",
+		"description": "Ofrecemos planes personalizados de generación de leads según tu especialidad, ubicación y objetivos de crecimiento.",
+		"doYouLike": "¿Te interesa atraer más pacientes a tu consultorio?",
+		"follow": "Contáctanos para una estrategia personalizada."
 	},
 	"Testimonial": {
-		"h2": "Testimonios",
-		"h3": "Muro del Amor",
-		"description1": "Si usas esta plantilla de página de destino y la recomiendas en tu Twitter,",
-		"description2": "por favor házmelo saber",
-		"description3": ",mostraré tu tweet y recomendación aquí."
+		"h2": "Lo Que Dicen los Doctores",
+		"h3": "Resultados Reales, Crecimiento Real",
+		"description1": "Hemos ayudado a docenas de consultorios a aumentar el flujo de pacientes y reducir las ausencias.",
+		"description2": "Descubre cómo profesionales de la salud como tú están escalando con Novametric.",
+		"description3": "Nos encantaría compartir tu caso de éxito próximamente."
 	},
 	"Faq": {
 		"h2": "Preguntas Frecuentes",
-		"h3": "Preguntas Frecuentes",
-		"description": "Aquí están algunas de las preguntas más frecuentes."
+		"h3": "Dudas Comunes de Clínicas y Consultorios",
+		"description": "Respondemos las preguntas más frecuentes de doctores y administradores sobre nuestro sistema de leads."
 	},
 	"CTA": {
-		"h2": "Construye Tu Página de Destino Ahora",
-		"h3": "Construye tu página de destino, muestra tu producto y empieza a ganar!"
+		"h2": "Lleva Nuevos Pacientes a tu Consultorio",
+		"h3": "Comencemos a llenar tu agenda para que te enfoques en lo que importa: cuidar a tus pacientes.",
+		"phone": "Teléfono",
+		"email": "Email",
+		"address": "Dirección"
 	},
 	"CTAButton": {
-		"btn1": "Obtener Código Fuente",
-		"btn2": "Ver Documentos"
-	},
-	"About": {
-		"h1": "Sobre Nosotros",
-		"h2": "Somos un equipo profesional dedicado al diseño y desarrollo frontend, comprometidos a proporcionar soluciones innovadoras y eficientes para nuestros clientes.",
-		"why": "Por Qué Elegirnos",
-		"why_content": "Con años de experiencia en la industria y conocimientos especializados, podemos entender profundamente las necesidades de nuestros clientes y proporcionar soluciones personalizadas. Nos enfocamos en la innovación y la experiencia del usuario, asegurando que cada proyecto supere las expectativas de nuestros clientes.",
-		"team": "Presentación del Equipo",
-		"team_content": "Nuestro equipo está compuesto por diseñadores, desarrolladores y gerentes de proyecto apasionados y creativos. Creemos que solo a través del trabajo en equipo cercano y el aprendizaje continuo podemos proporcionar el servicio y los productos de la más alta calidad para nuestros clientes."
-	},
-	"Blog": {
-		"title": "Blog",
-		"description": "Esta es una descripción de la página de lista de blogs separada",
-		"side1": "Descripción",
-		"side2": "Blogs Populares",
-		"side3": "Actualizados Recientemente"
+		"btn1": "Contáctanos",
+		"btn2": "Agendar Demostración"
 	}
 }

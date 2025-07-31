@@ -22,6 +22,13 @@ export default function Footer() {
 		fetchLinksList();
 	}, [pathname, langName]);
 
+	const handleSmoothScroll = (href) => {
+		const targetElement = document.getElementById(href);
+		if (targetElement) {
+			targetElement.scrollIntoView({ behavior: 'smooth' });
+		}
+	};
+
 	return (
 		<footer className='w-full px-5 py-10 bg-[#202020] text-[#f7f7f7] '>
 			<div className='container mx-auto flex flex-col md:flex-row justify-between items-center md:items-end gap-2 text-sm'>
@@ -39,33 +46,25 @@ export default function Footer() {
 							className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10'
 							alt='logo'
 						></Image>
-						<h2 className='ml-3 font-bold leading-5'>Landing Page</h2>
+						<h2 className='ml-3 font-bold leading-5'>NovaMetric</h2>
 					</a>
 					<div className='flex flex-wrap justify-center gap-x-2 md:gap-x-5 gap-y-1'>
 						{linkList.map((link, index) => {
 							return (
-								<a
+								<button
 									key={index}
 									title={link.name}
-									href={`/${langName}${link.url}`}
+									onClick={() => handleSmoothScroll(link.url)}
 								>
 									{link.name}
-								</a>
+								</button>
 							);
 						})}
 					</div>
 				</div>
 
 				<p>
-					©{' '}
-					<a
-						title={'huglemon'}
-						href='http://huglemon.com?rel=landingpage'
-						target='_blank'
-					>
-						hugLemon
-					</a>{' '}
-					present.
+					Copyright © 2025 NovaMetric. All rights reserved.
 				</p>
 			</div>
 		</footer>

@@ -31,7 +31,7 @@ export default function Feature({ locale, langName = 'en' }) {
 						{locale.h3}
 					</h3>
 
-					<h4 className='w-full md:w-10/12 mx-auto text-xl md:text-2xl text-base-content/80 md:text-center'>{locale.description}</h4>
+					<h4 className='w-full md:w-10/12 mx-auto text-xl md:text-2xl text-base-content/80 md:text-center mb-8 md:mb-12'>{locale.description}</h4>
 				</div>
 			</motion.div>
 

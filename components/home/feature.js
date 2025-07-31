@@ -5,7 +5,7 @@ import { FeaturesList } from '@/lib/featuresList';
 import { MdOutlineFeaturedPlayList } from 'react-icons/md';
 
 export default function Feature({ locale, langName = 'en' }) {
-	let list = FeaturesList[`FRETURES_${langName.toUpperCase()}`] || [];
+	let list = FeaturesList[`FEATURES_${langName.toUpperCase()}`] || [];
 
 	return (
 		<section

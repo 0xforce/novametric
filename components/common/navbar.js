@@ -1,7 +1,6 @@
 'use client';
 import Image from 'next/image';
 import { MdMenu } from 'react-icons/md';
-import { SiGithub } from 'react-icons/si';
 import { useEffect, useState } from 'react';
 import ThemeToggle from './themeToggle';
 import LangSwitch from './langSwitch';
@@ -27,6 +26,13 @@ export default function Navbar() {
 		fetchLinksList();
 	}, [pathname, langName]);
 
+	const handleSmoothScroll = (href) => {
+		const targetElement = document.getElementById(href);
+		if (targetElement) {
+			targetElement.scrollIntoView({ behavior: 'smooth' });
+		}
+	};
+
 	return (
 		<header className='w-full relative z-50 bg-base-100 p-5 pb-0 container mx-auto md:mb-5 flex justify-between items-center'>
 			<a
@@ -42,7 +48,7 @@ export default function Navbar() {
 					className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10'
 					alt='logo'
 				></Image>
-				<h2 className='ml-3 font-bold leading-5'>Landing Page</h2>
+				<h2 className='ml-3 font-bold leading-5'>NovaMetric</h2>
 			</a>
 
 			<ul className='w-3/5 px-5 font-medium hidden md:flex flex-nowrap items-center justify-around'>
@@ -52,30 +58,21 @@ export default function Navbar() {
 							key={index}
 							className='group py-3 text-center'
 						>
-							<a
+							<button
 								aria-label={link.name}
 								className='group relative'
 								title={link.name}
-								href={`/${langName}${link.url}`}
+								onClick={() => handleSmoothScroll(link.url)}
 							>
 								{link.name}
 								<div className='absolute left-[50%] group-hover:left-0 w-0 group-hover:w-full h-[3px] transition-all duration-300 bg-base-content/90'></div>
-							</a>
+							</button>
 						</li>
 					);
 				})}
 			</ul>
 
 			<div className='md:w-1/5 flex items-center justify-end gap-2'>
-				<label className='flex items-center justify-center md:bg-base-100 md:rounded-full w-5 md:w-8 h-5 md:h-8 md:shadow-sm md:hover:shadow-md transition-all'>
-					<a
-						aria-label='get template source code'
-						title='get template source code'
-						href='https://github.com/huglemon/inwind-landing-page'
-					>
-						<SiGithub size={14} />
-					</a>
-				</label>
 				<ThemeToggle />
 				<LangSwitch />
 				<details className='flex md:hidden dropdown dropdown-end'>
@@ -86,13 +83,13 @@ export default function Navbar() {
 						{linkList.map((link, index) => {
 							return (
 								<li key={index}>
-									<a
+									<button
 										aria-label={link.name}
 										title={link.name}
-										href={`/${langName}${link.url}`}
+										onClick={() => handleSmoothScroll(link.url)}
 									>
 										{link.name}
-									</a>
+									</button>
 								</li>
 							);
 						})}
