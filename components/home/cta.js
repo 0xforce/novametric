@@ -44,7 +44,7 @@ export default function Cta({ locale, CTALocale }) {
 					<div className='flex flex-col items-center text-center gap-3 p-6 rounded-lg bg-base-200/50 backdrop-blur-sm'>
 						<FiPhone className='text-2xl text-primary' />
 						<h4 className='font-semibold text-lg'>{locale.phone}</h4>
-						<p className='text-base-content/70'>+1 (555) 123-4567</p>
+						<p className='text-base-content/70'>+1 (954) 225-4960</p>
 					</div>
 					
 					<div className='flex flex-col items-center text-center gap-3 p-6 rounded-lg bg-base-200/50 backdrop-blur-sm'>
